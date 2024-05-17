@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // 2
 const httpLink = createHttpLink({
-  uri: 'http://http://34.174.57.226:8080/graphql/'
+  uri: 'http://34.174.57.226:8080/graphql/'
 });
 
 const authLink = setContext((_, { headers }) => {
